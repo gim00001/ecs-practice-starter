@@ -1,0 +1,9 @@
+logging:
+  level:
+    root: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   # 개발환경은 모든 actuator 엔드포인트 노출
